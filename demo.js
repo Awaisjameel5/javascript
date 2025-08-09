@@ -330,7 +330,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    alert("✅ Message sent! I’ll get back to you shortly.");
+    alert("✅Message sent! I’ll get back to you shortly.");
     form.reset();
   });
 });
